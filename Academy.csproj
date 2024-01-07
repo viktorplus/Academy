@@ -8,4 +8,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Models\" />
+    <Folder Include="Presentation\Pages\Admin\" />
+    <Folder Include="Presentation\Pages\Teacher\" />
+    <Folder Include="Presentation\Pages\Student\" />
+  </ItemGroup>
+
 </Project>
